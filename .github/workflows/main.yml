@@ -1,0 +1,6 @@
+- uses: actions/setup-node@v4
+  with:
+    node-version: '20'
+    cache: 'npm'
+    # Change 'subdir' to your actual folder name
+    cache-dependency-path: subdir/package-lock.json 

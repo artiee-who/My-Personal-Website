@@ -1,0 +1,6 @@
+run: npm ci
+run: npm install
+npm install
+git add package-lock.json
+git commit -m "Add package lock file"
+git push
